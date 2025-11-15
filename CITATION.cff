@@ -1,0 +1,83 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Emergence Parameter Analysis: ⁸⁷Rb Bose-Einstein Condensate"
+abstract: "Computational analysis of the emergence parameter κ for ⁸⁷Rb Bose-Einstein condensate based on experimental data from Anderson et al. (1995). Demonstrates that BEC formation occurs at critical point κ ≈ 1."
+authors:
+  - family-names: "Onasenko"
+    given-names: "Oleksii"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 2.0
+date-released: 2025-11-15
+license: Apache-2.0
+repository-code: "https://github.com/[username]/A.1_bec_rb87_kappa_analysis"
+keywords:
+  - Bose-Einstein condensate
+  - emergence
+  - criticality
+  - quantum phase transition
+  - rubidium-87
+  - computational physics
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.XXXXXXX"
+    description: "Zenodo DOI"
+preferred-citation:
+  type: software
+  title: "Emergence Parameter Analysis for ⁸⁷Rb Bose-Einstein Condensate"
+  authors:
+    - family-names: "Onasenko"
+      given-names: "Oleksii"
+  year: 2025
+  publisher:
+    name: "SubstanceNet"
+  notes: "System A.1"
+references:
+  - type: article
+    authors:
+      - family-names: "Anderson"
+        given-names: "M. H."
+      - family-names: "Ensher"
+        given-names: "J. R."
+      - family-names: "Matthews"
+        given-names: "M. R."
+      - family-names: "Wieman"
+        given-names: "C. E."
+      - family-names: "Cornell"
+        given-names: "E. A."
+    title: "Observation of Bose-Einstein condensation in a dilute atomic vapor"
+    journal: "Science"
+    volume: 269
+    issue: 5221
+    year: 1995
+    start: 198
+    end: 201
+    doi: "10.1126/science.269.5221.198"
+  - type: book
+    authors:
+      - family-names: "Pethick"
+        given-names: "C. J."
+      - family-names: "Smith"
+        given-names: "H."
+    title: "Bose-Einstein Condensation in Dilute Gases"
+    publisher:
+      name: "Cambridge University Press"
+    year: 2008
+    edition: "Second"
+  - type: article
+    authors:
+      - family-names: "Dalfovo"
+        given-names: "F."
+      - family-names: "Giorgini"
+        given-names: "S."
+      - family-names: "Pitaevskii"
+        given-names: "L. P."
+      - family-names: "Stringari"
+        given-names: "S."
+    title: "Theory of Bose-Einstein condensation in trapped gases"
+    journal: "Reviews of Modern Physics"
+    volume: 71
+    year: 1999
+    start: 463
+    end: 512
+    doi: "10.1103/RevModPhys.71.463"

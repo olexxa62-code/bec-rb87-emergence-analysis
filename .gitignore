@@ -1,0 +1,69 @@
+# Internal review and summary files (not for publication)
+PACKAGE_SUMMARY.md
+REVIEW_REPORT.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+my_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+.cache/
+
+# OS files
+Thumbs.db
+.directory
+
+# Large data files (if any)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Compilation
+*.o
+*.a
+*.out

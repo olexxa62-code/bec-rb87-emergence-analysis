@@ -1,0 +1,30 @@
+{
+  "system": "A.1 Bose-Einstein Condensate",
+  "isotope": "87Rb",
+  "parameters": {
+    "A": "N_condensate (number of atoms in condensate)",
+    "A_c": "N_total at T_c (total atoms at critical temperature)",
+    "tau": "Order parameter (1.00 for complete coherence)",
+    "Lambda": "Thomas-Fermi radius (geometric mean)",
+    "Lambda_c": "Thermal de Broglie wavelength"
+  },
+  "critical_values": {
+    "A_c": 20000,
+    "Lambda_c": 0.45,
+    "T_c": 170,
+    "comment": "A_c from Anderson p.200: '2×10^4 atoms at 170 nK'"
+  },
+  "formula": "κ = (A/A_c) × τ × (Λ/Λ_c)",
+  "result": {
+    "kappa": 0.80,
+    "uncertainty": 0.20,
+    "interpretation": "Close to critical point κ≈1"
+  },
+  "methodology": {
+    "Lambda_determination": "Thomas-Fermi approximation",
+    "Lambda_c_calculation": "Thermal de Broglie wavelength λ_dB = h/√(2πmk_BT)",
+    "tau_value": "1.00 (complete quantum coherence in BEC)",
+    "uncertainty_source": "TF approximation (±25% for N_0~10^3)"
+  },
+  "reference": "Anderson M.H. et al. (1995) Science 269:198-201"
+}

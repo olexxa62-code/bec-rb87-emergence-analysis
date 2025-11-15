@@ -1,0 +1,47 @@
+================================================================================
+STATISTICAL ANALYSIS REPORT
+Emergence Parameter (κ) Analysis for ⁸⁷Rb BEC
+================================================================================
+
+1. MEASURED PARAMETERS
+--------------------------------------------------------------------------------
+System: ⁸⁷Rb Bose-Einstein Condensate
+Source: Anderson et al. (1995) Science 269:198-201
+
+N_condensate (A): 2000 atoms
+N_total at T_c (A_c): 20000 atoms
+τ (order parameter): 1.00
+
+2. CALCULATED LENGTH SCALES
+--------------------------------------------------------------------------------
+Thomas-Fermi radius (Λ):
+  R_z (axial): 1.79 μm
+  R_r (radial): 5.11 μm
+  Geometric mean: 3.60 μm
+
+Thermal de Broglie wavelength (Λ_c): 0.454 μm
+
+3. EMERGENCE PARAMETER κ
+--------------------------------------------------------------------------------
+Formula: κ = (A/A_c) × τ × (Λ/Λ_c)
+
+Components:
+  A/A_c = 0.100
+  τ = 1.000
+  Λ/Λ_c = 7.928
+
+Result: κ = 0.793 ± 0.221
+
+95% Confidence Interval: [0.360, 1.226]
+
+4. INTERPRETATION
+--------------------------------------------------------------------------------
+Regime: critical
+Distance from critical point (|κ-1|): 0.207
+Consistent with κ≈1 hypothesis: True
+
+κ ≈ 1 within uncertainty (optimal emergence)
+
+================================================================================
+END OF REPORT
+================================================================================
