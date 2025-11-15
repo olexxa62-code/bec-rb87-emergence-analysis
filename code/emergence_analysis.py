@@ -1,12 +1,14 @@
 """
 Emergence Parameter (κ) Analysis for Bose-Einstein Condensate
-System A.1: 87Rb BEC in TOP magnetic trap
 
-Author: Oleksii Konashevych
-Date: October 2025
-Theory: 2D-Substance framework
+System Classification: A.1 bec_rb87_kappa_analysis
+Author: Oleksii Onasenko
+Developer: SubstanceNet
+Theoretical Framework: The Emergence Parameter κ ≈ 1: An Empirical Signature of Criticality in Physical and Biological Systems
+
+Analysis of ⁸⁷Rb BEC in TOP magnetic trap based on Anderson et al. (1995).
+Date: November 2025
 """
-
 import numpy as np
 import pandas as pd
 from typing import Dict, Tuple, Optional

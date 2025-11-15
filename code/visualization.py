@@ -1,8 +1,15 @@
 """
-Visualization tools for BEC emergence parameter analysis.
+Visualization Tools for BEC Emergence Parameter Analysis
 
-This module provides publication-quality plotting for κ analysis of BEC.
+System Classification: A.1 bec_rb87_kappa_analysis
+Author: Oleksii Onasenko
+Developer: SubstanceNet
+Theoretical Framework: The Emergence Parameter κ ≈ 1: An Empirical Signature of Criticality in Physical and Biological Systems
+
+Publication-quality plotting for κ analysis.
+Date: November 2025
 """
+
 
 import numpy as np
 import pandas as pd

@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """
-Main script to run complete emergence parameter (κ) analysis for BEC.
-Author: Oleksii Konashevych
-Date: October 2025
+Full Analysis Pipeline for ⁸⁷Rb BEC Emergence Parameter
+
+System Classification: A.1 bec_rb87_kappa_analysis
+Author: Oleksii Onasenko
+Developer: SubstanceNet
+Theoretical Framework: The Emergence Parameter κ ≈ 1: An Empirical Signature of Criticality in Physical and Biological Systems
+
+This script executes the complete analysis workflow.
+Date: November 2025
 """
 
 import os
