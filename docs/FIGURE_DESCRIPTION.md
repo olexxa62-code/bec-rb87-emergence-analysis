@@ -1,283 +1,276 @@
-# Опис графіків для публікації
-## Система А.1: ⁸⁷Rb Bose-Einstein Condensate
+# Figure Descriptions for Publication
+## System A.1: ⁸⁷Rb Bose-Einstein Condensate
 
-**Дата:** 29 жовтня 2025  
-**Джерело:** Anderson et al. (1995) Science 269:198-201
+**Date:** October 29, 2025  
+**Source:** Anderson et al. (1995) Science 269:198-201
 
 ---
 
-## 📊 Figure 1: Combined κ Analysis for ⁸⁷Rb BEC
+## Figure 1: Combined κ Analysis for ⁸⁷Rb BEC
 
-**Файл:** `bec_kappa_analysis_combined.png` (300 DPI)  
-**Високоякісна версія:** `bec_kappa_analysis_combined_highres.png` (600 DPI)
+**File:** `bec_kappa_analysis_combined.png` (300 DPI)  
+**High-resolution version:** `bec_kappa_analysis_combined_highres.png` (600 DPI)
 
-**Розмір:** 12" × 8" (3 панелі)
+**Size:** 12" × 8" (3 panels)
 
 ### Panel A: Emergence Parameter κ
 
-**Тип графіка:** Error bar plot
+**Graph type:** Error bar plot
 
-**Вісі:**
-- X-axis: Система (⁸⁷Rb BEC)
+**Axes:**
+- X-axis: System (⁸⁷Rb BEC)
 - Y-axis: κ (emergence parameter)
 
-**Елементи:**
-1. **Точка даних:**
-   - κ = 0.793 (центральне значення)
+**Elements:**
+1. **Data point:**
+   - κ = 0.793 (central value)
    - Error bars: ±0.198 (95% CI)
-   - Колір: темно-синій (#2E4057)
-   - Розмір маркера: 15 pt
+   - Color: dark blue (#2E4057)
+   - Marker size: 15 pt
 
-2. **Референсна лінія:**
-   - κ = 1.0 (критична точка)
-   - Стиль: пунктирна, чорна
-   - Товщина: 2.5 pt
+2. **Reference line:**
+   - κ = 1.0 (critical point)
+   - Style: dashed, black
+   - Width: 2.5 pt
 
-3. **Критична зона:**
-   - κ = 1.0 ± 0.3 (область [0.7, 1.3])
-   - Колір: сірий, прозорість 15%
-   - Мітка: "κ ≈ 1.0 ± 0.3"
+3. **Critical zone:**
+   - κ = 1.0 ± 0.3 (region [0.7, 1.3])
+   - Color: gray, transparency 15%
+   - Label: "κ ≈ 1.0 ± 0.3"
 
-**Інтерпретація:**
-Точка даних потрапляє в критичну зону. 95% довірчий інтервал включає κ=1, що підтверджує гіпотезу про критичний фазовий перехід при κ ≈ 1.
+**Interpretation:**
+Data point falls within critical zone. 95% confidence interval includes κ=1, confirming hypothesis of critical phase transition at κ ≈ 1.
 
 ---
 
 ### Panel B: Parameter Components
 
-**Тип графіка:** Bar chart
+**Graph type:** Bar chart
 
-**Вісі:**
-- X-axis: Компоненти (A/A_c, τ, Λ/Λ_c)
-- Y-axis: Значення
+**Axes:**
+- X-axis: Components (A/A_c, τ, Λ/Λ_c)
+- Y-axis: Value
 
-**Стовпці:**
+**Bars:**
 1. **A/A_c = 0.100**
-   - Конденсатна фракція: 10%
-   - Типово для БЕК при T ≈ T_c
-   - Колір: помаранчевий (#FF6B35)
+   - Condensate fraction: 10%
+   - Typical for BEC at T ≈ T_c
+   - Color: orange (#FF6B35)
 
 2. **τ = 1.000**
-   - Повна квантова когерентність
-   - Максимальний порядок
-   - Колір: помаранчевий
+   - Complete quantum coherence
+   - Maximum order
+   - Color: orange
 
 3. **Λ/Λ_c = 7.928**
-   - Відношення Thomas-Fermi радіуса до теплової довжини
-   - Сильний квантовий режим
-   - Колір: помаранчевий
+   - Ratio of Thomas-Fermi radius to thermal length
+   - Strong quantum regime
+   - Color: orange
 
 **Annotations:**
-Над кожним стовпцем - числове значення з 2-3 знаками після коми.
+Above each bar - numerical value with 2-3 decimal places.
 
-**Інтерпретація:**
-Три компоненти мультиплікативно дають κ = 0.100 × 1.000 × 7.928 = 0.793. Найбільший внесок від Λ/Λ_c (квантовий режим), найменший від A/A_c (конденсатна фракція).
+**Interpretation:**
+Three components multiply to give κ = 0.100 × 1.000 × 7.928 = 0.793. Largest contribution from Λ/Λ_c (quantum regime), smallest from A/A_c (condensate fraction).
 
 ---
 
 ### Panel C: Length Scales Comparison
 
-**Тип графіка:** Bar chart with annotations
+**Graph type:** Bar chart with annotations
 
-**Вісі:**
-- X-axis: Масштаби довжини
-- Y-axis: Значення (μm), логарифмічна шкала
+**Axes:**
+- X-axis: Length scales
+- Y-axis: Value (μm), logarithmic scale
 
-**Стовпці:**
+**Bars:**
 1. **Λ_c = 0.454 μm**
    - Thermal de Broglie wavelength
-   - Квантовий масштаб
-   - Колір: блакитний
+   - Quantum scale
+   - Color: cyan
 
 2. **R_z = 1.79 μm**
    - Axial Thomas-Fermi radius
-   - Менший через вищу частоту ω_z
-   - Колір: зелений
+   - Smaller due to higher frequency ω_z
+   - Color: green
 
 3. **Λ = 3.60 μm**
    - Geometric mean radius
-   - Характерний розмір конденсату
-   - Колір: зелений
+   - Characteristic condensate size
+   - Color: green
 
 4. **R_r = 5.11 μm**
    - Radial Thomas-Fermi radius
-   - Більший через нижчу частоту ω_r
-   - Колір: зелений
+   - Larger due to lower frequency ω_r
+   - Color: green
 
 **Annotations:**
-Над кожним стовпцем - значення в μm з 2 знаками після коми.
+Above each bar - value in μm with 2 decimal places.
 
-**Референсна лінія:**
-Λ_c = 0.454 μm (пунктирна лінія) для порівняння.
+**Reference line:**
+Λ_c = 0.454 μm (dashed line) for comparison.
 
-**Інтерпретація:**
-Всі просторові масштаби конденсату (R_z, R_r, Λ) значно перевищують теплову довжину хвилі Λ_c, що підтверджує сильний квантовий режим. Анізотропія R_r/R_z = 2.86 відповідає анізотропії пастки ω_z/ω_r = 2.86.
+**Interpretation:**
+All condensate spatial scales (R_z, R_r, Λ) significantly exceed thermal wavelength Λ_c, confirming strong quantum regime. Anisotropy R_r/R_z = 2.86 matches trap anisotropy ω_z/ω_r = 2.86.
 
 ---
 
-## 🎨 Дизайн і стиль
+## Design and Style
 
-### Кольорова схема
+### Color Scheme
 
-**Основні кольори:**
-- Виміряні дані: темно-синій (#2E4057)
-- Розраховані параметри: помаранчевий (#FF6B35)
-- Невизначеність: сірий (#95A3A4)
-- Критична зона: світло-сірий з прозорістю
-- Референсні лінії: чорний
+**Primary colors:**
+- Measured data: dark blue (#2E4057)
+- Calculated parameters: orange (#FF6B35)
+- Uncertainty: gray (#95A3A4)
+- Critical zone: light gray with transparency
+- Reference lines: black
 
 **Accessibility:**
-Колірна схема адаптована для людей з протанопією та дейтеранопією (colorblind-friendly).
+Color scheme adapted for protanopia and deuteranopia (colorblind-friendly).
 
 ---
 
-### Шрифти
+### Fonts
 
-**Заголовки панелей:**
-- Розмір: 14 pt
-- Вага: bold
-- Шрифт: DejaVu Sans
+**Panel titles:**
+- Size: 14 pt
+- Weight: bold
+- Font: DejaVu Sans
 
-**Підписи осей:**
-- Розмір: 12 pt
-- Вага: bold
-- Формат: "Parameter (units)"
+**Axis labels:**
+- Size: 12 pt
+- Weight: bold
+- Format: "Parameter (units)"
 
-**Мітки:**
-- Розмір: 10-11 pt
-- Вага: normal
-- Прозорий фон
+**Labels:**
+- Size: 10-11 pt
+- Weight: normal
+- Transparent background
 
-**Легенда:**
-- Розмір: 10 pt
-- Позиція: upper right або best
-- Напівпрозорий фон (alpha=0.9)
-
----
-
-### Сітка і осі
-
-**Сітка:**
-- Тип: пунктирна
-- Колір: світло-сірий
-- Прозорість: 30%
-- Вісь Y: увімкнена
-- Вісь X: Panel A - вимкнена, Panels B,C - увімкнена
-
-**Рамка:**
-- Колір: чорний
-- Товщина: 1.5 pt
-- Всі чотири сторони
+**Legend:**
+- Size: 10 pt
+- Position: upper right or best
+- Semi-transparent background (alpha=0.9)
 
 ---
 
-## 📝 Підписи для публікації
+### Grid and Axes
 
-### Figure 1 (повний підпис для статті)
+**Grid:**
+- Type: dashed
+- Color: light gray
+- Transparency: 30%
+- Y-axis: enabled
+- X-axis: Panel A - disabled, Panels B,C - enabled
+
+**Frame:**
+- Color: black
+- Width: 1.5 pt
+- All four sides
+
+---
+
+## Figure Captions for Publication
+
+### Figure 1 (full caption for article)
 
 **English:**
 
 > **Figure 1. Emergence parameter analysis for ⁸⁷Rb Bose-Einstein condensate.** (A) Emergence parameter κ = 0.793 ± 0.198 (error bars show 95% confidence interval) compared to the critical point κ = 1 (dashed line). The gray band indicates the near-critical region (κ = 1.0 ± 0.3). The result confirms that BEC occurs at the emergence threshold. (B) Three multiplicative components of κ: condensate fraction (A/A_c = 0.10), order parameter (τ = 1.00), and length scale ratio (Λ/Λ_c = 7.93). (C) Comparison of length scales: thermal de Broglie wavelength (Λ_c = 0.454 μm), Thomas-Fermi radii (R_z = 1.79 μm, R_r = 5.11 μm), and geometric mean radius (Λ = 3.60 μm). All spatial scales exceed the thermal wavelength, confirming the strong quantum regime. Data from Anderson et al. (1995) Science 269:198.
 
-**Українська:**
-
-> **Малюнок 1. Аналіз параметра емердженсу для Bose-Einstein конденсату ⁸⁷Rb.** (A) Параметр емердженсу κ = 0.793 ± 0.198 (похибки показують 95% довірчий інтервал) порівняно з критичною точкою κ = 1 (пунктирна лінія). Сіра смуга позначає близькокритичну область (κ = 1.0 ± 0.3). Результат підтверджує, що БЕК відбувається на межі емердженсу. (B) Три мультиплікативні компоненти κ: конденсатна фракція (A/A_c = 0.10), порядковий параметр (τ = 1.00) та відношення масштабів довжини (Λ/Λ_c = 7.93). (C) Порівняння масштабів довжини: теплова довжина де Бройля (Λ_c = 0.454 μm), радіуси Томаса-Фермі (R_z = 1.79 μm, R_r = 5.11 μm) та геометрична середня (Λ = 3.60 μm). Всі просторові масштаби перевищують теплову довжину хвилі, що підтверджує сильний квантовий режим. Дані з Anderson et al. (1995) Science 269:198.
-
 ---
 
-### Короткий підпис (для презентації)
+### Short caption (for presentations)
 
 **English:**
 > Emergence parameter κ = 0.79 ± 0.20 for ⁸⁷Rb BEC confirms critical phase transition at κ ≈ 1.
 
-**Українська:**
-> Параметр емердженсу κ = 0.79 ± 0.20 для БЕК ⁸⁷Rb підтверджує критичний фазовий перехід при κ ≈ 1.
-
 ---
 
-## 🔍 Додаткові спостереження
+## Additional Observations
 
 ### Statistical Significance
 
 **95% Confidence Interval: [0.404, 1.181]**
-- Нижня межа: 0.404 (значно < 1)
-- Верхня межа: 1.181 (трохи > 1)
-- **Включає κ = 1:** Так ✓
+- Lower bound: 0.404 (significantly < 1)
+- Upper bound: 1.181 (slightly > 1)
+- **Includes κ = 1:** Yes
 
-**Інтерпретація:**
-Хоча центральне значення κ = 0.79 дещо нижче 1, довірчий інтервал включає критичну точку. Це узгоджується з гіпотезою про κ ≈ 1 для фазових переходів.
+**Interpretation:**
+Although central value κ = 0.79 is somewhat below 1, confidence interval includes critical point. This is consistent with hypothesis of κ ≈ 1 for phase transitions.
 
 ---
 
 ### Comparison with Ideal Gas Prediction
 
-Якби використовувати N_c (ідеальний газ) = 247,000:
-- κ_ideal = (2000/247000) × 1.0 × 7.93 = **0.064** ❌
-- Це на порядок нижче критичної точки
-- Не відповідає експериментальним спостереженням
+Using N_c (ideal gas) = 247,000:
+- κ_ideal = (2000/247000) × 1.0 × 7.93 = **0.064**
+- Order of magnitude below critical point
+- Inconsistent with experimental observations
 
-Використовуючи N_total(T_c) = 20,000 (виміряне):
-- κ_measured = (2000/20000) × 1.0 × 7.93 = **0.793** ✓
-- Близько до критичної точки
-- Узгоджується з теорією емердженсу
+Using N_total(T_c) = 20,000 (measured):
+- κ_measured = (2000/20000) × 1.0 × 7.93 = **0.793**
+- Close to critical point
+- Consistent with emergence theory
 
-**Висновок:** Важливість використання реальних експериментальних даних, а не теоретичних передбачень для ідеального газу.
+**Conclusion:** Importance of using real experimental data rather than ideal gas theoretical predictions.
 
 ---
 
 ### Uncertainty Contributions
 
-**Джерела невизначеності (±):**
+**Sources of uncertainty:**
 - A (atom counting): 5%
 - A_c (N_total at T_c): 10%
 - τ (coherence): 1%
-- Λ (Thomas-Fermi): 25% (домінантне!)
+- Λ (Thomas-Fermi): 25% (dominant)
 - Λ_c (temperature): 5%
 
-**Загальна невизначеність:** 25%
+**Total uncertainty:** 25%
 
-**Критичне обмеження:** Thomas-Fermi апроксимація при N₀ ~ 10³ є граничним випадком. Для N₀ > 10⁴ невизначеність була б значно меншою (~10%).
+**Critical limitation:** Thomas-Fermi approximation at N₀ ~ 10³ is marginal. For N₀ > 10⁴ uncertainty would be significantly smaller (~10%).
 
 ---
 
 ### Anisotropy Verification
 
-**Теоретичне очікування:**
+**Theoretical expectation:**
 $$\frac{R_r}{R_z} = \frac{\omega_z}{\omega_r}$$
 
-**Експериментальне спостереження:**
+**Experimental observation:**
 - ω_z/ω_r = 120/42 = 2.86
 - R_r/R_z = 5.11/1.79 = 2.86
 
-**Консистентність:** ✓ Ідеальне співпадіння підтверджує коректність розрахунків Thomas-Fermi.
+**Consistency:** Perfect agreement confirms correctness of Thomas-Fermi calculations.
 
 ---
 
-## 📋 Технічні параметри фігур
+## Technical Parameters
 
-### Формат файлів
+### File Formats
 
 **Standard resolution (presentations):**
-- Файл: `bec_kappa_analysis_combined.png`
-- Роздільність: 300 DPI
-- Розмір: ~230 KB
-- Формат: PNG (RGB)
+- File: `bec_kappa_analysis_combined.png`
+- Resolution: 300 DPI
+- Size: ~230 KB
+- Format: PNG (RGB)
 
 **High resolution (publication):**
-- Файл: `bec_kappa_analysis_combined_highres.png`
-- Роздільність: 600 DPI
-- Розмір: ~520 KB
-- Формат: PNG (RGB)
+- File: `bec_kappa_analysis_combined_highres.png`
+- Resolution: 600 DPI
+- Size: ~520 KB
+- Format: PNG (RGB)
 
 ---
 
-### Розміри графіка
+### Figure Dimensions
 
 **Overall figure:**
-- Ширина: 12 inches
-- Висота: 8 inches
+- Width: 12 inches
+- Height: 8 inches
 - Layout: 1 row × 3 columns
-- Spacing: 0.3 inches між панелями
+- Spacing: 0.3 inches between panels
 
 **Individual panels:**
 - Panel A: 3.5" × 6"
@@ -286,44 +279,48 @@ $$\frac{R_r}{R_z} = \frac{\omega_z}{\omega_r}$$
 
 ---
 
-### Software і бібліотеки
+### Software and Libraries
 
-**Генерація графіків:**
+**Figure generation:**
 - Python 3.10
 - Matplotlib 3.8.0
 - NumPy 1.24.0
-- Seaborn 0.12.0 (опційно)
+- Seaborn 0.12.0 (optional)
 
-**Стиль:**
-- `seaborn-v0_8-paper` (базовий)
-- Кастомні модифікації для colorblind-friendly палітри
+**Style:**
+- `seaborn-v0_8-paper` (base)
+- Custom modifications for colorblind-friendly palette
 
 ---
 
-## ✅ Checklist для публікації
+## Publication Checklist
 
-### Вимоги журналу (перевірити перед подачею)
+### Journal Requirements (verify before submission)
 
-- [ ] Роздільність ≥ 300 DPI (600 DPI для друку)
-- [ ] Формат: TIFF, PNG, або PDF
-- [ ] Розмір файлу < 10 MB
-- [ ] Кольори: RGB або CMYK
-- [ ] Шрифти: вбудовані або converted to paths
-- [ ] Мітки осей читабельні при зменшенні до 50%
-- [ ] Легенда зрозуміла без читання тексту статті
-- [ ] Одиниці вказані в усіх підписах
-- [ ] Статистична значущість позначена
+- [ ] Resolution ≥ 300 DPI (600 DPI for print)
+- [ ] Format: TIFF, PNG, or PDF
+- [ ] File size < 10 MB
+- [ ] Colors: RGB or CMYK
+- [ ] Fonts: embedded or converted to paths
+- [ ] Axis labels readable at 50% reduction
+- [ ] Legend understandable without reading article text
+- [ ] Units specified in all captions
+- [ ] Statistical significance indicated
 
 ### Accessibility
 
 - [x] Colorblind-friendly palette
-- [x] Високий контраст
-- [x] Чіткі мітки
-- [x] Альтернативні текстури/символи (опційно)
-- [ ] Alt-text для веб-версії (додати при публікації)
+- [x] High contrast
+- [x] Clear labels
+- [x] Alternative textures/symbols (optional)
+- [ ] Alt-text for web version (add upon publication)
 
 ---
 
-**Дата останнього оновлення:** 29 жовтня 2025  
-**Версія:** 1.0  
-**Статус:** Готово до публікації
+**Last Updated:** October 29, 2025  
+**Version:** 1.0  
+**Status:** Ready for publication
+
+**Author:** Oleksii Onasenko  
+**Developer:** SubstanceNet  
+**System:** A.1 - ⁸⁷Rb BEC Emergence Analysis
