@@ -62,6 +62,13 @@ A.1_bec_rb87_kappa_analysis/
 **Quantum regime:** Λ/Λc = 7.93 >> 1 (deep quantum behavior)
 
 ---
+## Visual Summary
+
+![Emergence Parameter Analysis](figures/bec_kappa_analysis_combined.png)
+
+**Figure 1: Emergence parameter analysis for ⁸⁷Rb BEC.** (A) Emergence parameter κ = 0.793 ± 0.221 falls within the critical regime near κ = 1 (dashed line), with 95% confidence interval shown by error bars. (B) Three multiplicative components: condensate fraction (A/Ac = 0.10), perfect coherence (τ = 1.00), and quantum regime ratio (Λ/Λc = 7.93). (C) Length scale comparison showing Thomas-Fermi radii significantly exceed thermal wavelength, confirming strong quantum behavior.
+
+---
 
 ## Theoretical Framework
 
