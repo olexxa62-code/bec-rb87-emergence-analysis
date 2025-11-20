@@ -94,7 +94,7 @@ Based on:
 - Developer: SubstanceNet
 
 ### System Classification
-- System Code: A.1
+- System Code: A.1.1
 - System Type: Bose-Einstein Condensate
 - Species: ⁸⁷Rb (Rubidium-87)
 - Experiment: JILA (1995)

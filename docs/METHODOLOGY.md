@@ -3,7 +3,7 @@
 **Author:** Oleksii Onasenko  
 **Developer:** SubstanceNet  
 **Theoretical Framework:** The Emergence Parameter κ ≈ 1: An Empirical Signature of Criticality in Physical and Biological Systems  
-**System:** A.1 Bose-Einstein Condensate (⁸⁷Rb)  
+**System:** A.1.1 Bose-Einstein Condensate (⁸⁷Rb)  
 **Date:** November 15, 2025  
 **Status:** Peer-reviewed and validated
 

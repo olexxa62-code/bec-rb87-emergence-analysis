@@ -40,7 +40,7 @@ Documentation improvements are valuable:
 
 ### 4. Extension to Other Systems
 
-This project analyzes System A.1 (⁸⁷Rb BEC). If you wish to extend the framework to other BEC systems or quantum phase transitions, please:
+This project analyzes System A.1.1 (⁸⁷Rb BEC). If you wish to extend the framework to other BEC systems or quantum phase transitions, please:
 
 - Create a separate analysis following the same methodology
 - Maintain independence between system analyses
@@ -212,7 +212,7 @@ By contributing, you agree that your contributions will be licensed under the Ap
 
 **Author:** Oleksii Onasenko  
 **Developer:** SubstanceNet  
-**Project:** System A.1 - ⁸⁷Rb BEC Emergence Analysis
+**Project:** System A.1.1 - ⁸⁷Rb BEC Emergence Analysis
 
 For questions about the theoretical framework or methodology, refer to:
 - `docs/METHODOLOGY.md` - Complete methodology

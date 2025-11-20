@@ -3,7 +3,7 @@
 **Author:** Oleksii Onasenko  
 **Developer:** SubstanceNet  
 **Theoretical Framework:** The Emergence Parameter κ ≈ 1: An Empirical Signature of Criticality in Physical and Biological Systems  
-**System Code:** A.1  
+**System Code:** A.1.1  
 **Analysis Date:** November 15, 2025
 
 ---
@@ -340,7 +340,7 @@ If using this analysis or methodology:
   title = {Emergence Parameter Analysis for {$^{87}$Rb} Bose-Einstein Condensate},
   year = {2025},
   publisher = {SubstanceNet},
-  note = {System A.1},
+  note = {System A.1.1},
   url = {[repository URL]}
 }
 ```

@@ -1,5 +1,5 @@
 {
-  "system": "A.1 Bose-Einstein Condensate",
+  "system": "A.1.1 Bose-Einstein Condensate",
   "isotope": "87Rb",
   "parameters": {
     "A": "N_condensate (number of atoms in condensate)",

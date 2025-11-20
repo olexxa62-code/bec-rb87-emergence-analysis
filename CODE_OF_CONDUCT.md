@@ -150,7 +150,7 @@ For questions about this Code of Conduct:
 
 **Project Maintainer:** Oleksii Onasenko  
 **Organization:** SubstanceNet  
-**Project:** System A.1 - ⁸⁷Rb BEC Emergence Analysis
+**Project:** System A.1.1 - ⁸⁷Rb BEC Emergence Analysis
 
 Report violations via:
 - GitHub Issues (for public matters)

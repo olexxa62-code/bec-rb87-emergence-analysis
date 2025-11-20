@@ -1,5 +1,5 @@
 # Figure Descriptions for Publication
-## System A.1: ⁸⁷Rb Bose-Einstein Condensate
+## System A.1.1: ⁸⁷Rb Bose-Einstein Condensate
 
 **Date:** October 29, 2025  
 **Source:** Anderson et al. (1995) Science 269:198-201
@@ -323,4 +323,4 @@ $$\frac{R_r}{R_z} = \frac{\omega_z}{\omega_r}$$
 
 **Author:** Oleksii Onasenko  
 **Developer:** SubstanceNet  
-**System:** A.1 - ⁸⁷Rb BEC Emergence Analysis
+**System:** A.1.1 - ⁸⁷Rb BEC Emergence Analysis

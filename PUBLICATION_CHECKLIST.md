@@ -96,7 +96,7 @@ A.1_bec_rb87_kappa_analysis/
 - [x] Author: Oleksii Onasenko
 - [x] Developer: SubstanceNet
 - [x] Framework: κ ≈ 1 emergence theory
-- [x] System: A.1 (independent)
+- [x] System: A.1.1 (independent)
 - [x] License: Apache 2.0
 
 ## GitHub Repository Setup

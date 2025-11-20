@@ -2,7 +2,7 @@
 """
 Full Analysis Pipeline for ⁸⁷Rb BEC Emergence Parameter
 
-System Classification: A.1 bec_rb87_kappa_analysis
+System Classification: A.1.1 bec_rb87_kappa_analysis
 Author: Oleksii Onasenko
 Developer: SubstanceNet
 Theoretical Framework: The Emergence Parameter κ ≈ 1: An Empirical Signature of Criticality in Physical and Biological Systems

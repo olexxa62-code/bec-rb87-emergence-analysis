@@ -223,7 +223,7 @@ If a vulnerability affected previous results:
 
 **Security Contact:** Oleksii Onasenko  
 **Organization:** SubstanceNet  
-**Project:** System A.1 - ⁸⁷Rb BEC Emergence Analysis
+**Project:** System A.1.1 - ⁸⁷Rb BEC Emergence Analysis
 
 **Reporting Methods:**
 - Private: [Email for sensitive issues]
