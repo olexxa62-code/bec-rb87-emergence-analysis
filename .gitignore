@@ -67,3 +67,6 @@ Thumbs.db
 *.o
 *.a
 *.out
+
+# Internal documents
+Archive/

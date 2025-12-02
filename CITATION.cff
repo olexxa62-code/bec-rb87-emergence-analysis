@@ -6,11 +6,11 @@ abstract: "Computational analysis of the emergence parameter κ for ⁸⁷Rb Bos
 authors:
   - family-names: "Onasenko"
     given-names: "Oleksii"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0009-0007-7017-8161"
 version: 2.0
 date-released: 2025-11-15
 license: Apache-2.0
-repository-code: "https://github.com/[username]/A.1_bec_rb87_kappa_analysis"
+repository-code: "https://github.com/olexxa62-code/bec-rb87-emergence-analysis"
 keywords:
   - Bose-Einstein condensate
   - emergence
