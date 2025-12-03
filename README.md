@@ -12,7 +12,7 @@
 
 This repository contains a complete computational analysis of the emergence parameter κ for ⁸⁷Rb Bose-Einstein condensate based on experimental data from Anderson et al. (1995). The analysis demonstrates that BEC formation occurs at a critical point where κ ≈ 1, providing quantitative support for the theoretical framework of emergence in quantum phase transitions.
 
-**Main Result:** κ = 0.793 ± 0.221 (95% CI: [0.404, 1.181])
+**Main Result:** κ = 0.793 ± 0.221 (95% CI: [0.360, 1.226])
 
 ---
 
@@ -248,7 +248,7 @@ Our system: N₀a/a_ho = 7.6 (marginal regime, hence ±25% uncertainty on Λ)
 
 ### Critical Emergence
 
-The result κ = 0.793 ± 0.221 demonstrates that BEC operates within the critical regime (0.7 ≤ κ ≤ 1.3) where emergence phenomena occur. The 95% confidence interval [0.404, 1.181] includes κ = 1, confirming the theoretical prediction.
+The result κ = 0.793 ± 0.221 demonstrates that BEC operates within the critical regime (0.7 ≤ κ ≤ 1.3) where emergence phenomena occur. The 95% confidence interval [0.360, 1.226] includes κ = 1, confirming the theoretical prediction.
 
 ### Physical Meaning
 
