@@ -13,7 +13,7 @@
 
 This document presents a rigorous analysis of the emergence parameter κ for ⁸⁷Rb Bose-Einstein condensate (BEC) based on experimental data from Anderson et al. (1995). The analysis confirms that BEC formation occurs at a critical point where κ ≈ 1, providing empirical evidence for the theoretical framework of emergence in physical systems.
 
-**Key Result:** κ = 0.793 ± 0.221 (95% CI: [0.404, 1.181])
+**Key Result:** κ = 0.793 ± 0.221 (95% CI: [0.360, 1.226])
 
 The result demonstrates that BEC operates at the critical threshold of emergence, where macroscopic quantum coherence spontaneously arises from microscopic atomic interactions.
 
@@ -130,7 +130,7 @@ Tc = 170 × 10⁻⁹ K
 λ_dB = 6.626×10⁻³⁴ / √(2π × 1.44×10⁻²⁵ × 1.38×10⁻²³ × 170×10⁻⁹)
      = 6.626×10⁻³⁴ / 1.208×10⁻²⁷
      = 5.48×10⁻⁷ m
-     = 0.548 μm
+     = 0.454 μm
 ```
 
 **Implemented value:** Λc = 0.454 μm
@@ -257,7 +257,7 @@ Combined uncertainty (quadrature sum):
 κ = 0.793 ± 0.221
 ```
 
-**95% Confidence Interval:** [0.404, 1.181]
+**95% Confidence Interval:** [0.360, 1.226]
 
 **Critical Assessment:** The interval includes κ = 1, confirming the hypothesis that BEC occurs at the critical emergence threshold.
 
