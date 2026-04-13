@@ -423,7 +423,7 @@ Our choice maximizes κ, but alternative definitions still yield κ in the range
 
 ### 8.3 Correlation Length Λ: Geometric Mean vs Alternatives
 
-**Current choice:** Λ = √(R_z × R_r) = 3.60 μm (geometric mean of TF radii)
+**Current choice:** Λ = (R_z × R_r²)^(1/3) = 3.60 μm (geometric mean of TF radii)
 
 **Alternatives tested:**
 - R_r (radial) = 5.11 μm → κ ≈ 1.42
@@ -435,11 +435,11 @@ Our choice maximizes κ, but alternative definitions still yield κ in the range
 
 For an anisotropic trap with ωz ≠ ωr, the condensate has different characteristic lengths in different directions. The **geometric mean** is the natural choice because:
 
-1. **Dimensional consistency:** √(R_z × R_r) has correct dimensions and is invariant under rescaling of both axes.
+1. **Dimensional consistency:** (R_z × R_r²)^(1/3) has correct dimensions and reflects the 3D volume scaling.
 
-2. **Effective radius:** For anisotropic systems, the geometric mean represents the radius of an equivalent isotropic system with the same volume scaling: V ∝ R_z × R_r² ∝ (√(R_z × R_r))³.
+2. **Effective radius:** For anisotropic systems, the geometric mean represents the radius of an equivalent isotropic system with the same volume scaling: V ∝ R_z × R_r² = ((R_z × R_r²)^(1/3))³.
 
-3. **Energy scales:** The geometric mean trap frequency ω̄ = (ωz × ωr²)^(1/3) determines the critical temperature, suggesting the geometric mean of lengths is also fundamental.
+3. **Energy scales:** The geometric mean trap frequency ω̄ = (ωz × ωr²)^(1/3) determines the critical temperature, suggesting (R_z × R_r²)^(1/3) is the natural length scale.
 
 4. **Literature precedent:** Geometric mean is standard in BEC literature for characterizing effective trap size.
 
@@ -453,12 +453,12 @@ Different choices yield κ ∈ [0.28, 1.42], spanning the critical region. Our c
 The sensitivity analysis reveals that κ is **not constant** but depends on temperature:
 
 - **T/Tc → 1⁻:** κ → 0 (condensate vanishes)
-- **T/Tc = 0.79:** κ ≈ 0.79 (experimental condition)
+- **T/Tc = 0.965:** κ ≈ 0.79 (experimental condition, N₀/N = 0.10)
 - **T/Tc → 0:** κ increases (larger condensate fraction)
 
 This temperature dependence is **physically expected**: the emergence of macroscopic quantum behavior is a gradual process as T decreases below Tc, not an instantaneous jump.
 
-**Key insight:** The experimental measurement at T/Tc ≈ 0.79 happens to yield κ ≈ 1, suggesting the emergence threshold is reached **slightly below** Tc, not exactly at Tc. This is consistent with experimental observations that clear condensate signatures appear at T ~ 0.7-0.8 Tc.
+**Key insight:** The experimental measurement at T/Tc ≈ 0.965 (N₀/N = 0.10) yields κ ≈ 0.79. With the corrected condensate fraction formula N₀ = N[1-(T/Tc)³] for a harmonic trap, 10% condensation corresponds to T very close to Tc.
 
 ---
 

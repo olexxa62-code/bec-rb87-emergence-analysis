@@ -15,7 +15,7 @@ This document provides comprehensive justification for the three critical parame
 
 1. **Ac = N_total(Tc) = 20,000** (not ideal gas Nc = 247,000)
 2. **τ = 1.00** (perfect coherence, not condensate fraction)
-3. **Λ = √(Rz × Rr)** (geometric mean, not individual radii)
+3. **Λ = ( Rz × Rr² )^(1/3)** (geometric mean, not individual radii)
 
 We demonstrate that these choices are physically motivated, not arbitrary, and that alternative definitions yield κ values spanning 0.25-1.42, all within or near the critical regime (0.7-1.3).
 
@@ -29,7 +29,7 @@ The ideal gas Bose-Einstein condensation temperature is:
 
 $$T_c^{\text{ideal}} = \frac{\hbar \bar{\omega}}{k_B} \left(\frac{N}{1.202}\right)^{1/3}$$
 
-For the Anderson et al. (1995) parameters (Tc = 170 nK, ω̄ = 53.7 Hz), this predicts:
+For the Anderson et al. (1995) parameters (Tc = 170 nK, ω̄ = 59.6 Hz), this predicts:
 
 $$N_c^{\text{ideal}} = 1.202 \left(\frac{k_B T_c}{\hbar \bar{\omega}}\right)^3 \approx 247,000 \text{ atoms}$$
 
@@ -55,15 +55,15 @@ For ⁸⁷Rb with N = 20,000:
 
 - a = 5.3 nm
 - m = 87 u = 1.44 × 10⁻²⁵ kg
-- ω̄ = 2π × 53.7 Hz
-- aho = √(ℏ/mω̄) = 1.07 μm
+- ω̄ = 2π × 59.6 Hz
+- aho = √(ℏ/mω̄) = 1.40 μm
 
 Therefore:
-- a/aho = 5.3 nm / 1.07 μm ≈ 0.0050
-- N^(1/6) ≈ 2.38
-- ΔTc/Tc ≈ -1.3 × 0.005 × 2.38 / 1.46 ≈ **-0.011** (1.1% shift)
+- a/aho = 5.3 nm / 1.40 μm ≈ 0.0038
+- N^(1/6) ≈ 5.21
+- ΔTc/Tc ≈ -1.3 × 0.0038 × 5.21 / 1.38 ≈ **-0.019** (1.9% shift)
 
-**Wait - this is only 1%, not 12%!**
+**Wait - this is only ~2%, not the factor-of-12 discrepancy!**
 
 ### 1.4 Higher-Order Corrections
 
@@ -194,7 +194,7 @@ Which length scale represents "the" correlation length?
 
 | Definition | Formula | Value (μm) | Physical Meaning |
 |------------|---------|-----------|------------------|
-| Geometric mean | √(Rz × Rr) | 3.60 | Effective isotropic radius |
+| Geometric mean | ( Rz × Rr² )^(1/3) | 3.60 | Effective isotropic radius |
 | Radial | R_r | 5.11 | Weakest confinement |
 | Axial | R_z | 1.79 | Strongest confinement |
 | Arithmetic mean | (Rz + Rr)/2 | 3.45 | Simple average |
@@ -214,7 +214,7 @@ Equating volumes:
 $$\Lambda^3 \propto R_z R_r^2$$
 $$\Lambda \propto (R_z R_r^2)^{1/3}$$
 
-For cigar-shaped traps, the geometric mean √(Rz Rr) approximates this effective radius.
+For cigar-shaped traps, the geometric mean (Rz × Rr²)^(1/3) represents this effective radius.
 
 **Argument 2: Energy scales**
 
@@ -234,7 +234,7 @@ Most BEC literature (Dalfovo et al., 1999; Pethick & Smith, 2008) uses geometric
 
 | Λ Choice | Λ/Λc | κ Value | Interpretation |
 |----------|------|---------|----------------|
-| √(Rz Rr) | 7.93 | 0.793 | Standard (our choice) |
+| (Rz×Rr²)^(1/3) | 7.93 | 0.793 | Standard (our choice) |
 | R_r | 11.25 | 1.125 | Supercritical |
 | R_z | 3.94 | 0.394 | Subcritical |
 | Arithmetic | 7.60 | 0.760 | Near-critical |
@@ -262,7 +262,7 @@ We define three "scenarios" spanning reasonable parameter choices:
 
 | Scenario | Ac | τ | Λ | κ Result |
 |----------|----|----|---|----------|
-| **Baseline (ours)** | 20,000 | 1.00 | √(Rz Rr) | **0.793** |
+| **Baseline (ours)** | 20,000 | 1.00 | (Rz×Rr²)^(1/3) | **0.793** |
 | **Conservative** | 50,000 | 0.90 | Harm. mean | **0.228** |
 | **Aggressive** | 20,000 | 1.00 | R_r | **1.125** |
 
@@ -270,7 +270,7 @@ We define three "scenarios" spanning reasonable parameter choices:
 
 **Baseline (κ = 0.79):** Standard choices, κ ≈ 1 within error
 
-**Conservative (κ = 0.23):** If we assume higher Ac and lower τ, emergence is "partial" - consistent with T/Tc = 0.79 being above the true critical point
+**Conservative (κ = 0.23):** If we assume higher Ac and lower τ, emergence is "partial" - consistent with T/Tc = 0.965 being very close to Tc
 
 **Aggressive (κ = 1.13):** If we use largest length scale, system is supercritical - consistent with strong quantum correlations
 
@@ -292,8 +292,8 @@ We define three "scenarios" spanning reasonable parameter choices:
 In GL theory, the order parameter ψ near Tc scales as:
 $$|\psi|^2 \propto (1 - T/T_c)^\beta$$
 
-where β ≈ 0.5 for BEC (mean-field). At T/Tc = 0.79:
-$$|\psi|^2 / |\psi_0|^2 \approx (0.21)^{0.5} \approx 0.46$$
+where β ≈ 0.5 for BEC (mean-field). At T/Tc = 0.965:
+$$|\psi|^2 / |\psi_0|^2 \approx (0.035)^{0.5} \approx 0.187$$
 
 This is **larger** than the measured N₀/N = 0.10, suggesting finite-size or interaction corrections modify the scaling exponent.
 

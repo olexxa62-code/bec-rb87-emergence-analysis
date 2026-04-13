@@ -85,7 +85,7 @@ class SensitivityAnalyzer:
         Lambda_c = self.base_results['Lambda_c_um']
         
         length_definitions = {
-            'Geometric mean (current)': np.sqrt(R_z * R_r),
+            'Geometric mean (current)': (R_z * R_r**2)**(1/3),
             'Radial R_r only': R_r,
             'Axial R_z only': R_z,
             'Arithmetic mean': (R_z + R_r) / 2,
@@ -93,7 +93,7 @@ class SensitivityAnalyzer:
         }
         
         results = {}
-        base_Lambda = np.sqrt(R_z * R_r)
+        base_Lambda = (R_z * R_r**2)**(1/3)
         base_kappa = self.base_results['kappa']
         
         for label, Lambda in length_definitions.items():
@@ -117,7 +117,7 @@ class SensitivityAnalyzer:
                 kappa_values.append(0.0)  # No condensate above Tc
             else:
                 # Condensate fraction
-                N0_T = self.base_params.N_total_Tc * (1 - ratio)**(3/2)
+                N0_T = self.base_params.N_total_Tc * (1 - ratio**3)
                 
                 # Temperature scaling
                 T = ratio * self.base_params.T_c
@@ -208,8 +208,8 @@ def plot_sensitivity_analysis(save_path: str = '../figures/'):
     
     ax4.plot(T_vals, kappa_vals, linewidth=2.5, color='#2E4057')
     ax4.axhline(1.0, color='black', linestyle='--', linewidth=2, label='κ = 1')
-    ax4.axvline(0.79, color='gray', linestyle=':', linewidth=1.5, 
-                label='T/Tc = 0.79 (measured)')
+    ax4.axvline(0.965, color='gray', linestyle=':', linewidth=1.5, 
+                label='T/Tc = 0.965 (experimental)')
     ax4.fill_between(T_vals, 0.7, 1.3, alpha=0.15, color='gray', 
                       label='Critical region')
     ax4.set_xlabel('T/Tc', fontsize=12, fontweight='bold')

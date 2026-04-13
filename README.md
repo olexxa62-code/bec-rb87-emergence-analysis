@@ -74,7 +74,7 @@ A.1_bec_rb87_kappa_analysis/
 
 ![Sensitivity Analysis](figures/sensitivity_analysis.png)
 
-**Figure 2: Robustness analysis of κ to parameter choices.** (A) **Critical number Ac:** Using measured N_total(Tc)=20,000 yields κ=0.79, while ideal gas N_c=247,000 gives κ=0.06. (B) **Order parameter τ:** Perfect coherence (τ=1) gives κ=0.79, alternative definitions yield 0.25-0.71. (C) **Length scale Λ:** Geometric mean (current choice) gives κ=0.79, alternatives range 0.28-1.42. (D) **Temperature dependence:** κ(T) shows critical behavior near Tc, with κ≈1 at T/Tc≈0.79 (experimental condition). This analysis demonstrates that while κ is sensitive to definitions, the result remains within the critical regime (0.7-1.3) for physically reasonable choices.
+**Figure 2: Robustness analysis of κ to parameter choices.** (A) **Critical number Ac:** Using measured N_total(Tc)=20,000 yields κ=0.79, while ideal gas N_c=247,000 gives κ=0.06. (B) **Order parameter τ:** Perfect coherence (τ=1) gives κ=0.79, alternative definitions yield 0.25-0.71. (C) **Length scale Λ:** Geometric mean (current choice) gives κ=0.79, alternatives range 0.28-1.42. (D) **Temperature dependence:** κ(T) shows critical behavior near Tc, with κ≈0.79 at T/Tc≈0.965 (experimental condition). This analysis demonstrates that while κ is sensitive to definitions, the result remains within the critical regime (0.7-1.3) for physically reasonable choices.
 
 ---
 
