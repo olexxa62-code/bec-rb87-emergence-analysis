@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2026-04-13
+### Fixed
+- Scattering length: a = 5.3 → 5.77 nm (Boesten et al. 1997 via Dalfovo et al. 1999)
+- Λ formula in docs: √(Rz×Rr) → (Rz×Rr²)^(1/3) to match code
+- Condensate fraction formula: (1-T/Tc)^(3/2) → 1-(T/Tc)³ (harmonic trap)
+- ω̄ = 53.7 → 59.6 Hz in PARAMETER_JUSTIFICATION.md
+- T/Tc = 0.79 → 0.965 (correct for N₀/N = 0.10)
+### Changed
+- N_condensate source clarified as estimate (~10% of N_total)
+- All documentation updated to reflect new values
+### Key Result
+- κ = 0.806 ± 0.225
+- 95% CI: [0.366, 1.247]
+- Confirms critical emergence at κ ≈ 1
+
 ## [2.0.0] - 2025-11-15
 
 ### Added
@@ -33,8 +48,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Uncertainty budget comprehensively analyzed
 
 ### Key Result
-- κ = 0.793 ± 0.221
-- 95% CI: [0.404, 1.181]
+- κ = 0.806 ± 0.225 (updated from 0.793)
+- 95% CI: [0.366, 1.247]
 - Confirms critical emergence at κ ≈ 1
 
 ## [1.0.0] - 2025-11-04
@@ -48,8 +63,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Calculated
 - Thermal de Broglie wavelength: λ_dB = 0.454 μm
-- Thomas-Fermi radii: Rz = 1.79 μm, Rr = 5.11 μm
-- Emergence parameter: κ = 0.793
+- Thomas-Fermi radii: Rz = 1.82 μm, Rr = 5.20 μm
+- Emergence parameter: κ = 0.806
 
 ### Implemented
 - Object-oriented code structure

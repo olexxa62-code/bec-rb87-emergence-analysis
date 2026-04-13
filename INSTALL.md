@@ -170,7 +170,7 @@ PYEOF
 
 Expected output:
 ```
-κ = 0.793 ± 0.221
+κ = 0.806 ± 0.225
 
 Installation test successful!
 ```
