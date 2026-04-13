@@ -149,7 +149,7 @@ def plot_sensitivity_analysis(save_path: str = '../figures/'):
         T_c=170,
         omega_z=120,
         omega_r=42,
-        a=5.3
+        a=5.77
     )
     
     analyzer = SensitivityAnalyzer(params)

@@ -15,9 +15,9 @@ N_total at T_c (A_c): 20000 atoms
 2. CALCULATED LENGTH SCALES
 --------------------------------------------------------------------------------
 Thomas-Fermi radius (Λ):
-  R_z (axial): 1.79 μm
-  R_r (radial): 5.11 μm
-  Geometric mean: 3.60 μm
+  R_z (axial): 1.82 μm
+  R_r (radial): 5.20 μm
+  Geometric mean: 3.66 μm
 
 Thermal de Broglie wavelength (Λ_c): 0.454 μm
 
@@ -28,16 +28,16 @@ Formula: κ = (A/A_c) × τ × (Λ/Λ_c)
 Components:
   A/A_c = 0.100
   τ = 1.000
-  Λ/Λ_c = 7.928
+  Λ/Λ_c = 8.064
 
-Result: κ = 0.793 ± 0.221
+Result: κ = 0.806 ± 0.225
 
-95% Confidence Interval: [0.360, 1.226]
+95% Confidence Interval: [0.366, 1.247]
 
 4. INTERPRETATION
 --------------------------------------------------------------------------------
 Regime: critical
-Distance from critical point (|κ-1|): 0.207
+Distance from critical point (|κ-1|): 0.194
 Consistent with κ≈1 hypothesis: True
 
 κ ≈ 1 within uncertainty (optimal emergence)

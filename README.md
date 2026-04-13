@@ -12,7 +12,7 @@
 
 This repository contains a complete computational analysis of the emergence parameter κ for ⁸⁷Rb Bose-Einstein condensate based on experimental data from Anderson et al. (1995). The analysis demonstrates that BEC formation occurs at a critical point where κ ≈ 1, providing quantitative support for the theoretical framework of emergence in quantum phase transitions.
 
-**Main Result:** κ = 0.793 ± 0.221 (95% CI: [0.360, 1.226])
+**Main Result:** κ = 0.806 ± 0.225 (95% CI: [0.366, 1.247])
 
 ---
 
@@ -45,13 +45,13 @@ A.1_bec_rb87_kappa_analysis/
 
 ### Emergence Parameter
 ```
-κ = (A/Ac) · τ · (Λ/Λc) = 0.793 ± 0.221
+κ = (A/Ac) · τ · (Λ/Λc) = 0.806 ± 0.225
 ```
 
 **Components:**
 - A/Ac = 0.100 (condensate fraction: 2,000/20,000 atoms)
 - τ = 1.000 (complete quantum coherence)
-- Λ/Λc = 7.930 (TF radius / de Broglie wavelength: 3.60/0.454 μm)
+- Λ/Λc = 8.066 (TF radius / de Broglie wavelength: 3.66/0.454 μm)
 
 **Interpretation:** BEC operates at the critical emergence threshold (κ ≈ 1) where macroscopic quantum coherence spontaneously emerges from microscopic interactions.
 
@@ -60,14 +60,14 @@ A.1_bec_rb87_kappa_analysis/
 **Thomas-Fermi regime:** N₀a/a_ho = 7.6 (marginal validity, ±25% uncertainty)  
 **Trap anisotropy:** ωz/ωr = Rr/Rz = 2.86 (self-consistent)  
 **Condensate fraction:** 10% at Tc (within expected 5-15% range)  
-**Quantum regime:** Λ/Λc = 7.93 >> 1 (deep quantum behavior)
+**Quantum regime:** Λ/Λc = 8.07 >> 1 (deep quantum behavior)
 
 ---
 ## Visual Summary
 
 ![Emergence Parameter Analysis](figures/bec_kappa_analysis_combined.png)
 
-**Figure 1: Emergence parameter analysis for ⁸⁷Rb BEC.** (A) Emergence parameter κ = 0.793 ± 0.221 falls within the critical regime near κ = 1 (dashed line), with 95% confidence interval shown by error bars. (B) Three multiplicative components: condensate fraction (A/Ac = 0.10), perfect coherence (τ = 1.00), and quantum regime ratio (Λ/Λc = 7.93). (C) Length scale comparison showing Thomas-Fermi radii significantly exceed thermal wavelength, confirming strong quantum behavior.
+**Figure 1: Emergence parameter analysis for ⁸⁷Rb BEC.** (A) Emergence parameter κ = 0.806 ± 0.225 falls within the critical regime near κ = 1 (dashed line), with 95% confidence interval shown by error bars. (B) Three multiplicative components: condensate fraction (A/Ac = 0.10), perfect coherence (τ = 1.00), and quantum regime ratio (Λ/Λc = 8.07). (C) Length scale comparison showing Thomas-Fermi radii significantly exceed thermal wavelength, confirming strong quantum behavior.
 
 ---
 ## Sensitivity Analysis
@@ -105,12 +105,12 @@ DOI: 10.1126/science.269.5221.198
 
 | Parameter | Value | Units | Source |
 |-----------|-------|-------|--------|
-| N_condensate | 2,000 | atoms | Post-evaporation count |
+| N_condensate | 2,000 | atoms | Estimated ~10% of N_total at onset |
 | N_total(Tc) | 20,000 | atoms | "2×10⁴ atoms at 170 nK" |
 | Tc | 170 | nK | Critical temperature |
 | ωz | 120 | Hz | Axial trap frequency |
 | ωr | 42 | Hz | Radial trap frequency |
-| a | 5.3 | nm | ⁸⁷Rb scattering length |
+| a | 5.77 | nm | Boesten et al. (1997) via Dalfovo et al. (1999) |
 
 ---
 
@@ -183,7 +183,7 @@ params = BECParameters(
     T_c=170,  # nK
     omega_z=120,  # Hz
     omega_r=42,   # Hz
-    a=5.3  # nm
+    a=5.77  # nm
 )
 
 # Initialize analyzer
@@ -219,9 +219,9 @@ For anisotropic harmonic trap in mean-field regime:
 1. ω̄ = (ωz × ωr²)^(1/3) = 374.5 rad/s
 2. a_ho = √(ℏ/(mω̄)) = 1.397 μm
 3. μ = (ℏω̄/2)(15N₀a/a_ho)^(2/5) = 1.313×10⁻³¹ J
-4. Rz = √(2μ/(mωz²)) = 1.79 μm
-5. Rr = √(2μ/(mωr²)) = 5.11 μm
-6. Λ = (Rz×Rr²)^(1/3) = 3.60 μm
+4. Rz = √(2μ/(mωz²)) = 1.82 μm
+5. Rr = √(2μ/(mωr²)) = 5.20 μm
+6. Λ = (Rz×Rr²)^(1/3) = 3.66 μm
 ```
 
 Physical interpretation: Spatial extent of condensate wave function in Thomas-Fermi approximation.
@@ -248,7 +248,7 @@ Our system: N₀a/a_ho = 7.6 (marginal regime, hence ±25% uncertainty on Λ)
 
 ### Critical Emergence
 
-The result κ = 0.793 ± 0.221 demonstrates that BEC operates within the critical regime (0.7 ≤ κ ≤ 1.3) where emergence phenomena occur. The 95% confidence interval [0.360, 1.226] includes κ = 1, confirming the theoretical prediction.
+The result κ = 0.806 ± 0.225 demonstrates that BEC operates within the critical regime (0.7 ≤ κ ≤ 1.3) where emergence phenomena occur. The 95% confidence interval [0.366, 1.247] includes κ = 1, confirming the theoretical prediction.
 
 ### Physical Meaning
 
@@ -256,7 +256,7 @@ The result κ = 0.793 ± 0.221 demonstrates that BEC operates within the critica
 
 **Complete coherence (τ = 1):** All condensate atoms share single quantum phase. System exhibits long-range quantum order absent in thermal gas.
 
-**Enhanced correlations (Λ/Λc = 7.93):** Condensate size exceeds thermal wavelength by factor of 8, indicating strong quantum correlations extend across macroscopic distances.
+**Enhanced correlations (Λ/Λc = 8.07):** Condensate size exceeds thermal wavelength by factor of 8, indicating strong quantum correlations extend across macroscopic distances.
 
 **Critical product (κ ≈ 1):** Multiplicative combination of three independent factors yields unity at phase transition, suggesting universal principle underlying emergence.
 
@@ -295,15 +295,15 @@ This demonstrates that:
 
 All calculations independently verified:
 - Thermal wavelength: λ_dB = 0.455 μm (hand calculation) vs 0.454 μm (code)
-- TF radii: Rz = 1.79 μm, Rr = 5.11 μm (both verified)
-- κ value: 0.793 (exact match)
+- TF radii: Rz = 1.82 μm, Rr = 5.20 μm (both verified)
+- κ value: 0.806 (exact match)
 
 ### Physical Consistency
 
 Self-consistency checks:
 - Trap anisotropy: ωz/ωr = Rr/Rz = 2.86
 - Condensate fraction: 10% (within expected 5-15%)
-- Quantum regime: Λ/Λc = 7.93 >> 1
+- Quantum regime: Λ/Λc = 8.07 >> 1
 
 ### Peer Review
 

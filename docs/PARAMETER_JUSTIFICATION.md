@@ -39,7 +39,7 @@ However, the experiment reports N_total(Tc) ≈ 20,000 atoms at the critical tem
 
 ### 1.2 Physical Origin: Mean-Field Shift
 
-Real condensates have repulsive interactions (a > 0 for ⁸⁷Rb, a = 5.3 nm). The mean-field energy per particle is:
+Real condensates have repulsive interactions (a > 0 for ⁸⁷Rb, a = 5.77 nm). The mean-field energy per particle is:
 
 $$\mu = \frac{4\pi \hbar^2 a N}{m V}$$
 
@@ -53,15 +53,15 @@ where aho = √(ℏ/mω̄) is the harmonic oscillator length.
 
 For ⁸⁷Rb with N = 20,000:
 
-- a = 5.3 nm
+- a = 5.77 nm
 - m = 87 u = 1.44 × 10⁻²⁵ kg
 - ω̄ = 2π × 59.6 Hz
 - aho = √(ℏ/mω̄) = 1.40 μm
 
 Therefore:
-- a/aho = 5.3 nm / 1.40 μm ≈ 0.0038
+- a/aho = 5.77 nm / 1.40 μm ≈ 0.0041
 - N^(1/6) ≈ 5.21
-- ΔTc/Tc ≈ -1.3 × 0.0038 × 5.21 / 1.38 ≈ **-0.019** (1.9% shift)
+- ΔTc/Tc ≈ -1.3 × 0.0041 × 5.21 / 1.38 ≈ **-0.020** (2.0% shift)
 
 **Wait - this is only ~2%, not the factor-of-12 discrepancy!**
 
@@ -97,7 +97,7 @@ Using different Ac values:
 
 | Ac Choice | Physical Basis | κ Value |
 |-----------|----------------|---------|
-| 20,000 | Measured N_total(Tc) | 0.793 ✓ |
+| 20,000 | Measured N_total(Tc) | 0.806 ✓ |
 | 50,000 | Conservative estimate | 0.317 |
 | 100,000 | Intermediate | 0.159 |
 | 247,000 | Ideal gas Nc | 0.064 ✗ |
@@ -170,7 +170,7 @@ Both yield κ significantly below 1, suggesting emergence is "partial" at this t
 
 | τ Definition | Physical Meaning | κ Value |
 |--------------|------------------|---------|
-| 1.00 | Perfect coherence | 0.793 ✓ |
+| 1.00 | Perfect coherence | 0.806 ✓ |
 | √(N₀/N) = 0.316 | Geometric mean | 0.250 |
 | N₀/N = 0.10 | Condensate fraction | 0.079 |
 | 0.90 | Conservative | 0.714 |
@@ -184,8 +184,8 @@ Both yield κ significantly below 1, suggesting emergence is "partial" at this t
 ### 3.1 The Anisotropy Challenge
 
 The ⁸⁷Rb condensate is **cigar-shaped** due to trap anisotropy:
-- Radial: R_r = 5.11 μm (weak confinement, ωr = 42 Hz)
-- Axial: R_z = 1.79 μm (strong confinement, ωz = 120 Hz)
+- Radial: R_r = 5.20 μm (weak confinement, ωr = 42 Hz)
+- Axial: R_z = 1.82 μm (strong confinement, ωz = 120 Hz)
 - Aspect ratio: R_r/R_z = 2.86
 
 Which length scale represents "the" correlation length?
@@ -194,9 +194,9 @@ Which length scale represents "the" correlation length?
 
 | Definition | Formula | Value (μm) | Physical Meaning |
 |------------|---------|-----------|------------------|
-| Geometric mean | ( Rz × Rr² )^(1/3) | 3.60 | Effective isotropic radius |
-| Radial | R_r | 5.11 | Weakest confinement |
-| Axial | R_z | 1.79 | Strongest confinement |
+| Geometric mean | ( Rz × Rr² )^(1/3) | 3.66 | Effective isotropic radius |
+| Radial | R_r | 5.20 | Weakest confinement |
+| Axial | R_z | 1.82 | Strongest confinement |
 | Arithmetic mean | (Rz + Rr)/2 | 3.45 | Simple average |
 | Harmonic mean | 2RzRr/(Rz+Rr) | 2.88 | Weighted toward smaller |
 
@@ -234,7 +234,7 @@ Most BEC literature (Dalfovo et al., 1999; Pethick & Smith, 2008) uses geometric
 
 | Λ Choice | Λ/Λc | κ Value | Interpretation |
 |----------|------|---------|----------------|
-| (Rz×Rr²)^(1/3) | 7.93 | 0.793 | Standard (our choice) |
+| (Rz×Rr²)^(1/3) | 8.07 | 0.806 | Standard (our choice) |
 | R_r | 11.25 | 1.125 | Supercritical |
 | R_z | 3.94 | 0.394 | Subcritical |
 | Arithmetic | 7.60 | 0.760 | Near-critical |
@@ -262,13 +262,13 @@ We define three "scenarios" spanning reasonable parameter choices:
 
 | Scenario | Ac | τ | Λ | κ Result |
 |----------|----|----|---|----------|
-| **Baseline (ours)** | 20,000 | 1.00 | (Rz×Rr²)^(1/3) | **0.793** |
+| **Baseline (ours)** | 20,000 | 1.00 | (Rz×Rr²)^(1/3) | **0.806** |
 | **Conservative** | 50,000 | 0.90 | Harm. mean | **0.228** |
 | **Aggressive** | 20,000 | 1.00 | R_r | **1.125** |
 
 ### 4.2 Physical Interpretation
 
-**Baseline (κ = 0.79):** Standard choices, κ ≈ 1 within error
+**Baseline (κ = 0.81):** Standard choices, κ ≈ 1 within error
 
 **Conservative (κ = 0.23):** If we assume higher Ac and lower τ, emergence is "partial" - consistent with T/Tc = 0.965 being very close to Tc
 
@@ -299,7 +299,7 @@ This is **larger** than the measured N₀/N = 0.10, suggesting finite-size or in
 
 ### 5.2 Gross-Pitaevskii Equation
 
-The full GP equation for N₀ = 2000, a = 5.3 nm predicts:
+The full GP equation for N₀ = 2000, a = 5.77 nm predicts:
 - **Chemical potential:** μ/ℏω̄ ≈ 7.6 (our value)
 - **Thomas-Fermi radii:** Agrees with our calculation within 10%
 - **Condensate depletion:** ~5% quantum depletion

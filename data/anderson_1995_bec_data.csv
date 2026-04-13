@@ -1,2 +1,2 @@
 System,N_condensate,N_total_Tc,T_c_nK,omega_z_Hz,omega_r_Hz,a_nm,Lambda_um,Lambda_c_um,tau,kappa,Source
-BEC_Rb87,2000,20000,170,120,42,5.3,3.6,0.45,1.00,0.80,Anderson et al. (1995) Science 269:198-201
+BEC_Rb87,2000,20000,170,120,42,5.77,3.6,0.45,1.00,0.80,Anderson et al. (1995) Science 269:198-201

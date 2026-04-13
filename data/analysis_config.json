@@ -16,8 +16,8 @@
   },
   "formula": "κ = (A/A_c) × τ × (Λ/Λ_c)",
   "result": {
-    "kappa": 0.80,
-    "uncertainty": 0.20,
+    "kappa": 0.81,
+    "uncertainty": 0.23,
     "interpretation": "Close to critical point κ≈1"
   },
   "methodology": {

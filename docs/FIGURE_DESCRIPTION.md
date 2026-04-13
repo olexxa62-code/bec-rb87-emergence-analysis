@@ -1,7 +1,7 @@
 # Figure Descriptions for Publication
 ## System A.1.1: ⁸⁷Rb Bose-Einstein Condensate
 
-**Date:** October 29, 2025  
+**Date:** November 15, 2025  
 **Source:** Anderson et al. (1995) Science 269:198-201
 
 ---
@@ -11,7 +11,7 @@
 **File:** `bec_kappa_analysis_combined.png` (300 DPI)  
 **High-resolution version:** `bec_kappa_analysis_combined_highres.png` (600 DPI)
 
-**Size:** 12" × 8" (3 panels)
+**Size:** 15" × 5" (3 panels)
 
 ### Panel A: Emergence Parameter κ
 
@@ -23,8 +23,8 @@
 
 **Elements:**
 1. **Data point:**
-   - κ = 0.793 (central value)
-   - Error bars: ±0.198 (95% CI)
+   - κ = 0.806 (central value)
+   - Error bars: ±0.225 (95% CI)
    - Color: dark blue (#2E4057)
    - Marker size: 15 pt
 
@@ -62,7 +62,7 @@ Data point falls within critical zone. 95% confidence interval includes κ=1, co
    - Maximum order
    - Color: orange
 
-3. **Λ/Λ_c = 7.928**
+3. **Λ/Λ_c = 8.066**
    - Ratio of Thomas-Fermi radius to thermal length
    - Strong quantum regime
    - Color: orange
@@ -71,7 +71,7 @@ Data point falls within critical zone. 95% confidence interval includes κ=1, co
 Above each bar - numerical value with 2-3 decimal places.
 
 **Interpretation:**
-Three components multiply to give κ = 0.100 × 1.000 × 7.928 = 0.793. Largest contribution from Λ/Λ_c (quantum regime), smallest from A/A_c (condensate fraction).
+Three components multiply to give κ = 0.100 × 1.000 × 8.066 = 0.806. Largest contribution from Λ/Λ_c (quantum regime), smallest from A/A_c (condensate fraction).
 
 ---
 
@@ -89,17 +89,17 @@ Three components multiply to give κ = 0.100 × 1.000 × 7.928 = 0.793. Largest 
    - Quantum scale
    - Color: cyan
 
-2. **R_z = 1.79 μm**
+2. **R_z = 1.82 μm**
    - Axial Thomas-Fermi radius
    - Smaller due to higher frequency ω_z
    - Color: green
 
-3. **Λ = 3.60 μm**
+3. **Λ = 3.66 μm**
    - Geometric mean radius
    - Characteristic condensate size
    - Color: green
 
-4. **R_r = 5.11 μm**
+4. **R_r = 5.20 μm**
    - Radial Thomas-Fermi radius
    - Larger due to lower frequency ω_r
    - Color: green
@@ -177,14 +177,14 @@ Color scheme adapted for protanopia and deuteranopia (colorblind-friendly).
 
 **English:**
 
-> **Figure 1. Emergence parameter analysis for ⁸⁷Rb Bose-Einstein condensate.** (A) Emergence parameter κ = 0.793 ± 0.198 (error bars show 95% confidence interval) compared to the critical point κ = 1 (dashed line). The gray band indicates the near-critical region (κ = 1.0 ± 0.3). The result confirms that BEC occurs at the emergence threshold. (B) Three multiplicative components of κ: condensate fraction (A/A_c = 0.10), order parameter (τ = 1.00), and length scale ratio (Λ/Λ_c = 7.93). (C) Comparison of length scales: thermal de Broglie wavelength (Λ_c = 0.454 μm), Thomas-Fermi radii (R_z = 1.79 μm, R_r = 5.11 μm), and geometric mean radius (Λ = 3.60 μm). All spatial scales exceed the thermal wavelength, confirming the strong quantum regime. Data from Anderson et al. (1995) Science 269:198.
+> **Figure 1. Emergence parameter analysis for ⁸⁷Rb Bose-Einstein condensate.** (A) Emergence parameter κ = 0.806 ± 0.225 (error bars show 95% confidence interval) compared to the critical point κ = 1 (dashed line). The gray band indicates the near-critical region (κ = 1.0 ± 0.3). The result confirms that BEC occurs at the emergence threshold. (B) Three multiplicative components of κ: condensate fraction (A/A_c = 0.10), order parameter (τ = 1.00), and length scale ratio (Λ/Λ_c = 8.07). (C) Comparison of length scales: thermal de Broglie wavelength (Λ_c = 0.454 μm), Thomas-Fermi radii (R_z = 1.82 μm, R_r = 5.20 μm), and geometric mean radius (Λ = 3.66 μm). All spatial scales exceed the thermal wavelength, confirming the strong quantum regime. Data from Anderson et al. (1995) Science 269:198.
 
 ---
 
 ### Short caption (for presentations)
 
 **English:**
-> Emergence parameter κ = 0.79 ± 0.20 for ⁸⁷Rb BEC confirms critical phase transition at κ ≈ 1.
+> Emergence parameter κ = 0.81 ± 0.23 for ⁸⁷Rb BEC confirms critical phase transition at κ ≈ 1.
 
 ---
 
@@ -192,9 +192,9 @@ Color scheme adapted for protanopia and deuteranopia (colorblind-friendly).
 
 ### Statistical Significance
 
-**95% Confidence Interval: [0.404, 1.181]**
-- Lower bound: 0.404 (significantly < 1)
-- Upper bound: 1.181 (slightly > 1)
+**95% Confidence Interval: [0.366, 1.247]**
+- Lower bound: 0.366 (significantly < 1)
+- Upper bound: 1.247 (slightly > 1)
 - **Includes κ = 1:** Yes
 
 **Interpretation:**
@@ -205,12 +205,12 @@ Although central value κ = 0.79 is somewhat below 1, confidence interval includ
 ### Comparison with Ideal Gas Prediction
 
 Using N_c (ideal gas) = 247,000:
-- κ_ideal = (2000/247000) × 1.0 × 7.93 = **0.064**
+- κ_ideal = (2000/247000) × 1.0 × 8.07 = **0.064**
 - Order of magnitude below critical point
 - Inconsistent with experimental observations
 
 Using N_total(T_c) = 20,000 (measured):
-- κ_measured = (2000/20000) × 1.0 × 7.93 = **0.793**
+- κ_measured = (2000/20000) × 1.0 × 8.07 = **0.806**
 - Close to critical point
 - Consistent with emergence theory
 
@@ -240,7 +240,7 @@ $$\frac{R_r}{R_z} = \frac{\omega_z}{\omega_r}$$
 
 **Experimental observation:**
 - ω_z/ω_r = 120/42 = 2.86
-- R_r/R_z = 5.11/1.79 = 2.86
+- R_r/R_z = 5.20/1.82 = 2.86
 
 **Consistency:** Perfect agreement confirms correctness of Thomas-Fermi calculations.
 
@@ -267,8 +267,8 @@ $$\frac{R_r}{R_z} = \frac{\omega_z}{\omega_r}$$
 ### Figure Dimensions
 
 **Overall figure:**
-- Width: 12 inches
-- Height: 8 inches
+- Width: 15 inches
+- Height: 5 inches
 - Layout: 1 row × 3 columns
 - Spacing: 0.3 inches between panels
 
@@ -317,7 +317,7 @@ $$\frac{R_r}{R_z} = \frac{\omega_z}{\omega_r}$$
 
 ---
 
-**Last Updated:** October 29, 2025  
+**Last Updated:** November 15, 2025  
 **Version:** 1.0  
 **Status:** Ready for publication
 
