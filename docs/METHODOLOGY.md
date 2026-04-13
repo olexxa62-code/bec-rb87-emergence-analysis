@@ -363,6 +363,24 @@ The logarithmic form makes explicit that emergence requires balanced contributio
 
 ---
 
+
+### 7.4 Choice of Λ = R_TF: Spatial Scale of the Emergent State
+
+A critical methodological question is why the Thomas-Fermi radius R_TF is used as the correlation length Λ, rather than the healing length ξ = ℏ/√(2mμ) ≈ 0.35 μm.
+
+In Landau theory, "correlation length" denotes the scale over which order parameter fluctuations decay — physically, the distance over which a perturbation to the condensate heals. For ⁸⁷Rb BEC, ξ ≈ 0.35 μm. Using ξ as Λ would yield Λ/Λc ≈ 0.77 and κ ≈ 0.077, inconsistent with the critical emergence hypothesis.
+
+However, the κ-framework defines Λ not as the fluctuation decay scale but as the **spatial extent of the emergent phenomenon**. The distinction is fundamental:
+
+- **Healing length ξ:** The scale on which the order parameter recovers after a local perturbation. It characterizes the **resilience** of the emergent state.
+- **Thomas-Fermi radius R_TF:** The scale over which macroscopic quantum coherence exists. It characterizes the **size** of the emergent state itself.
+
+The emergence parameter asks: "Over what spatial scale does the new macroscopic behavior extend?" For BEC, all N₀ atoms share a single quantum phase across the entire condensate volume, bounded by R_TF. This is the operationally measurable quantity — Anderson et al. (1995) directly observed the spatial extent of the condensate via time-of-flight expansion imaging.
+
+This choice is consistent with the general κ-framework applied across different physical systems: Λ always represents the characteristic size of the emergent structure, not the internal correlation scale of the ordered phase.
+
+---
+
 ## 8. Parameter Choice Justification and Sensitivity Analysis
 
 This section addresses the three critical parameter choices and their impact on the κ ≈ 1 result, responding to peer review concerns about robustness.
